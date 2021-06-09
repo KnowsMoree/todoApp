@@ -42,6 +42,7 @@
 .text-fill:focus {
     color: var(--text-color);
     background: #787e81;
+    box-shadow: 2px 2px 5px antiquewhite;
 }
 
 @keyframes rgb {
