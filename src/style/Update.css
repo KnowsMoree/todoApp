@@ -35,3 +35,17 @@
 .desc-fill {
     width: 100%;
 }
+
+@media screen and (max-width: 650px) {
+    .modal-content {
+        margin-top: 35%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-update {
+        width: 300px;
+    }
+}
+
+

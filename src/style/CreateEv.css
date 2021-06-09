@@ -5,11 +5,17 @@
     flex-direction: column;
     justify-content: start;
     min-height: fit-content;
-    background: #161a2b;
+    background: var(--card-bg);
     text-align: center;
-    margin: 30px auto;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     padding: 25px;
+}
+
+.form-label {
+    animation: rgb 7s infinite;
 }
 
 .input-x {
@@ -38,4 +44,45 @@
     background: #787e81;
 }
 
+@keyframes rgb {
+    0% {
+        color: var(--rgb-y);
+    }
+    15% {
+        color: var(--rgb-r);
+    }
+    30% {
+        color: var(--rgb-g);
+    }
+    45% {
+        color: var(--rgb-b);
+    }
+    60% {
+        color: var(--rgb-v);
+    }
+    75% {
+        color: var(--rgb-o);
+    }
+    90% {
+        color: var(--rgb-i);
+    }
+    100% {
+        color: var(--rgb-y);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-create {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .form-create {
+        width: 290px;
+    }
+    .text-fill {
+        width: 95%;
+    }
+}
 
