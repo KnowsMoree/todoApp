@@ -1,0 +1,18 @@
+@import url(list-comp.css);
+@import url(CreateEv.css);
+@import url(Update.css);
+@import url(color.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #252525;
+}
+
+html {
+    font-family: 'Poppins';
+}

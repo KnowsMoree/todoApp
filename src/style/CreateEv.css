@@ -1,0 +1,41 @@
+.form-create {
+    width: 440px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: start;
+    min-height: fit-content;
+    background: #161a2b;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.input-x {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 100%;
+}
+
+.right {
+    width: 20%;
+}
+
+.text-fill {
+    color: #fff;
+    width: 100%;
+    background: #787e81;
+    border: none;
+    animation: back-change 5s infinite;
+}
+
+.text-fill:focus {
+    color: var(--text-color);
+    background: #787e81;
+}
+
+
